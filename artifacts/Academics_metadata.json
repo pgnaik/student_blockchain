@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.35+commit.47b9dedd"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "meetingNotice",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo.sol": "Academics"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo.sol": {
+			"keccak256": "0xd51ed888d356f621f2ea3b9fdf02569ef2a59281aee71245e031cb40bab2ab96",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8a0da3c19a4462d364949f107b048924fbb6cd7c9203424e8803dbb4d4730880",
+				"dweb:/ipfs/Qmcp1VC5sXgH2NA9RuiYAPATAr4oiDfpZhTsdNkaew8ijt"
+			]
+		}
+	},
+	"version": 1
+}

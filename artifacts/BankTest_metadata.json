@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.36+commit.8a079791"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkInitialBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/bank_test.sol": "BankTest"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bank.sol": {
+			"keccak256": "0xaadbc15099b8780d8815e2f618ef361990d00a9c2d73fe3228feb82b1bd2ea78",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b259c0e23d0297c697d021dd5c507136036aa875066a1ecedfe4c4d04914eb8d",
+				"dweb:/ipfs/QmaM67bEpFBWfMw7pwD5FzttoWqANvSLHYFPZbPmbfGBkX"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/bank_test.sol": {
+			"keccak256": "0x8fa461d04ebc4ea7f7af727e6fa2f78d367d1c7e1062d2c802e520430733bae9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ebcdc2da760b84429b446fd96ece9f9c27f3cda5899edc7399894a4e8091b5a4",
+				"dweb:/ipfs/QmP1SGsGwti1EwPpz4zedT4WTHUarp5WYhJGvTWRtjXqXX"
+			]
+		}
+	},
+	"version": 1
+}

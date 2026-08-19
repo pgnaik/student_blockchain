@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollNo",
+						"type": "uint256"
+					}
+				],
+				"name": "getElectiveDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "elective1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "elective2",
+						"type": "string"
+					}
+				],
+				"name": "registerElective",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "rollNoToElectives",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "elective1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "elective2",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo.sol": "ElectivesRegistration"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo.sol": {
+			"keccak256": "0xeda4bcdb3d05e80423d3b6ff63bf283b2b10962e51ba266635dce1f27e10bbc5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1cf15c2c68386e5d9c2da60ec4e3b0b0bc741d218e3a3e55ff4aaf3d4e1e1c6b",
+				"dweb:/ipfs/QmW67z8Kr3BSDfxMy6nddJX8QA34QuU5zsTWw8n6TVR1mU"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo.sol": "SendEther"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo.sol": {
+			"keccak256": "0x9155a94f79e6dced014ba5f2af689ab02dd9ed6f268ef751e061436ba2179937",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4c74baee7dbc3e5dca8ee92b4542febe920af7b57d361c6ca45b9dc1877df6de",
+				"dweb:/ipfs/QmVf72PMeWbbTffQpwEctNCuWMvzsq2BBiug9pzPVDLFvA"
+			]
+		}
+	},
+	"version": 1
+}

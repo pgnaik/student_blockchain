@@ -5,4 +5,9 @@ contract Counter {
     function increment() public {
         count++;
     }
+        function decrement() public {
+        require(count > 0, "Counter is zero");
+        count--;
+    }
+
 }

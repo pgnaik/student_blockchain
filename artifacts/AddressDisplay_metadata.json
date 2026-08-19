@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.35+commit.47b9dedd"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getUserAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo.sol": "AddressDisplay"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo.sol": {
+			"keccak256": "0xfb34740413e360c1c1b70ab120c066ddb0f65cd8a069125e993cfd762e0cab46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e1cb9ce2921b20d964cf1dc2280f256b12ef6242ad967a41459ed958c3ec0ab7",
+				"dweb:/ipfs/QmYTgZ7y3Ejam8EVUfK5eoRfXYs3RhJz2k1Hb5wnjDj5Vi"
+			]
+		}
+	},
+	"version": 1
+}

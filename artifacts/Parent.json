@@ -1,0 +1,46 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"sepolia:11155111": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60806040526032600055348015601457600080fd5b50603f8060226000396000f3fe6080604052600080fdfea2646970667358221220b90bda184e1b8540d1ff6c8a889f84eb76e7d9a953f0ba6abd354f4580a543de64736f6c63430007060033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x32 PUSH1 0x0 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x14 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x22 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xB9 SIGNEXTEND 0xDA XOR 0x4E SHL DUP6 BLOCKHASH 0xD1 SELFDESTRUCT PUSH13 0x8A889F84EB76E7D9A953F0BA6A 0xBD CALLDATALOAD 0x4F GASLIMIT DUP1 0xA5 NUMBER 0xDE PUSH5 0x736F6C6343 STOP SMOD MOD STOP CALLER ",
+			"sourceMap": "66:51:0:-:0;;;111:2;89:24;;66:51;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea2646970667358221220b90bda184e1b8540d1ff6c8a889f84eb76e7d9a953f0ba6abd354f4580a543de64736f6c63430007060033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xB9 SIGNEXTEND 0xDA XOR 0x4E SHL DUP6 BLOCKHASH 0xD1 SELFDESTRUCT PUSH13 0x8A889F84EB76E7D9A953F0BA6A 0xBD CALLDATALOAD 0x4F GASLIMIT DUP1 0xA5 NUMBER 0xDE PUSH5 0x736F6C6343 STOP SMOD MOD STOP CALLER ",
+			"sourceMap": "66:51:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "20072",
+				"totalCost": "32672"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

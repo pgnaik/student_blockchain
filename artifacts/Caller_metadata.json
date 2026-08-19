@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Test",
+						"name": "tobj",
+						"type": "address"
+					}
+				],
+				"name": "callTest1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract Test",
+						"name": "test",
+						"type": "address"
+					}
+				],
+				"name": "callTest2",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo.sol": "Caller"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo.sol": {
+			"keccak256": "0x00be99e8ce0d6681dc90800eaaee69b11d74364a1713e855706e5c6775d148c5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://77c8e9ae52d147db404e809c042ab77e3957bf39397838d9ed2584f6b9af281b",
+				"dweb:/ipfs/QmeQuH4ZZeduBu3LxZpYmqN1F18gaYD9rWZgWzvXMPi18N"
+			]
+		}
+	},
+	"version": 1
+}
