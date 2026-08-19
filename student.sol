@@ -4,15 +4,15 @@ pragma solidity ^0.8.20;
 contract Student {
 
     string public name;
-    uint public marks;
+    uint public blockchain_marks;
 
     function setStudent(string memory n, uint m) public {
         name = n;
-        marks = m;
+        blockchain_marks = m;
     }
 
     function getResult() public view returns (string memory) {
-        if (marks >= 40) {
+        if (blockchain_marks >= 40) {
             return "Pass";
         } else {
             return "Fail";
